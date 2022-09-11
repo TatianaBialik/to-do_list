@@ -1,0 +1,75 @@
+.item {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 600px;
+  column-gap: 15px;
+  background-color: #ace4fd;
+  padding-left: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+  /* border-bottom: 1px solid; */
+}
+
+.item:hover { 
+  transform: scale(1.1);
+}
+
+/* .item__done-button {
+  background: #fff url(../images/done.svg) no-repeat center center;
+  background-size: 100%;
+  border: none;
+  padding: 20px;
+  cursor: pointer; 
+  transition: all 0.3s;
+} 
+
+.item__done-button:hover {
+  transform: scale(1.3);
+} */
+
+.item__text {
+  text-align: left;
+  margin: 0;
+  /* max-width: 350px; */
+  width: 100%;
+  padding: 2% 0 2%;
+  font-size: 18px;
+  /* color: #fff; */
+  /* border-bottom: 1px solid; */
+}
+
+/* .item__action-buttons {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+} */
+
+/* .item__button:hover { 
+  transform: scale(1.3);
+  visibility: visible;
+} */
+
+.item:hover .item__delete-button {
+  visibility: visible;
+}
+
+/* .item__edit-button {
+  background: #fff url(../images/edit.svg) no-repeat center center;
+} */
+
+.item__delete-button {
+  background: url(../images/delete.svg) no-repeat center center;
+  padding: 10px 10px 20px 35px;
+  background-size: 60%;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  visibility: hidden;
+}
+
+.item__delete-button:hover { 
+  background-color: red;
+}

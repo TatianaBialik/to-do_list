@@ -1,0 +1,8 @@
+.page {
+  font-family: Arial, sans-serif;
+  /* background: rgb(0,212,255); */
+  /* background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(19,185,172,1) 69%, rgba(185,183,224,1) 100%); */
+  background: rgb(163,131,186);
+  background: radial-gradient(circle, rgba(163,131,186,1) 0%, rgba(106,234,255,1) 76%, rgba(104,55,172,1) 100%);
+  min-height: 100vh;
+}

@@ -1,0 +1,13 @@
+.header {
+  margin: 0;
+  text-align: center;
+  padding: 7% 0 3%;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 52px;
+  font-weight: 800;
+  color: #75c5e7;
+  text-shadow: rgb(124, 15, 157) 5px 5px 5px;
+}

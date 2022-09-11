@@ -1,0 +1,33 @@
+.add-item-form {
+  margin: 0 auto;
+}
+
+.add-item-form__input {
+  padding: 10px 10px 8px;
+  border: 1px solid;
+  border-radius: 8px 0 0 8px;
+  border-color: gray;
+  font-size: 24px;
+  line-height: 1.1;
+  outline: none;
+  width: 400px;
+}
+
+.add-item-form__submit {
+  border: 1px solid;
+  border-radius: 0 8px 8px 0;
+  border-color: gray;
+  padding: 10px 10px 8px;
+  
+  font-size: 24px;
+  line-height: 1.1;
+  background-color: rgb(124, 15, 157);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.add-item-form__submit:hover { 
+  background-color: #ace4fd;
+  color: #000;
+}

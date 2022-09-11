@@ -1,0 +1,11 @@
+.to-do-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 2% 2% 5%;
+  display: grid;
+  justify-content: center;
+  row-gap: 15px;
+  max-width: 600px;
+  width: 100%;
+  /* background-color: #fff; */
+}

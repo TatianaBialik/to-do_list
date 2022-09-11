@@ -1,0 +1,27 @@
+.nav-bar { 
+  padding: 5% 0 5%;
+  
+}
+
+.nav-bar__switch {
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.nav-bar__link { 
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nav-bar__link:hover {
+  transform: scale(1.2);
+}
+
+.nav-bar__link_active {
+  transform: scale(1.2);
+  text-decoration: underline;
+}

@@ -4,23 +4,18 @@ import ToDoList from "./ToDoList";
 import { v4 as uuid } from 'uuid';
 import NavBar from "./NavBar";
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import * as api from '../utils/api';
 
 function Main() {
 
   const [todos, setTodos] = useState([]);
   const [dones, setDones] = useState([]);
 
-  useEffect(() => { 
-    setTodos([
-      {
-        title: 'Do something',
-        id: uuid(),
-      },
-      {
-        title: 'Do something else',
-        id: uuid(),
-      }
-    ]);
+  useEffect(() => {
+    api.getToDos()
+      .then(res => {
+        setTodos(res.filter(item => item.isCompleted === false))
+      })
   }, []);
 
   useEffect(() => { 

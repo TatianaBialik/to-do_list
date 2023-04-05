@@ -16,7 +16,8 @@ function ListItem(props) {
 
   return (
     <li className='to-do-list__item item' onClick={handleClick} onDoubleClick={handleEditClick}>
-      <p className='item__text'>{props.content}</p>
+      <h3 className='item__title'>{props.title}</h3>
+      <p className='item__text'>{props.description}</p>
       <button className='item__delete-button' onClick={handleDeleteButtonClick} />
     </li>
   )
